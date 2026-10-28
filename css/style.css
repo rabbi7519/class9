@@ -1,0 +1,419 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.Container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+/* All common css end */
+
+#headerpart{
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+.menu ul li a {
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.batton a{
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #417D6E;
+    padding: 10px 18px;
+    border-radius: 500px;
+    transition: all linear 0.4s;
+
+}
+.batton a:hover{
+    background: #007456;
+    color: #fff;
+    
+}
+
+/* banner part start  */
+
+#bannerpart{
+    background: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 95px;
+
+}
+.bannerflex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bannerleft{
+    width: 50%;
+}
+
+.bannerRight{
+    width: 50%;
+}
+
+.bannertext{
+    padding-top: 65px;
+}
+.bannertext h2{
+
+    color: #242B36;
+    font-size: 62px;
+    font-weight: 600;
+
+}
+.bannertext p {
+
+    color: #3B4759;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+.bannertext a {
+    padding: 16px 24px;
+    border: 1px solid #007456;
+    border-radius: 8px;
+    margin-right: 10px;
+
+
+}
+
+.twotimehover a:hover{
+    background: #007456;
+    color: #fff;
+
+}
+.twotimehover a{
+    margin-top: 32px;
+    color: #007456;
+
+
+}
+
+.bannertext input{
+    padding: 16px;
+    border: 1px solid #C4C8CE;
+    border-radius: 8px;
+    width: 100%;
+    margin: 20px 0px;
+
+}
+.searchGroup{
+    position: relative;
+
+}
+
+.box{
+    height: 48px;
+    width: 48px;
+    background: #FA8C00;
+    border-radius: 8px;
+    position: absolute;
+    right: -38px;
+    top: 25%;
+    transform: translate(-50%);
+
+}
+
+.box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bannerlast a{
+    padding: 8px 12px;
+    border: 1px solid #3B4759;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+/* banner part end  */
+
+/* banner 2nd part start  */
+
+#bannersecond{
+    padding: 120px 0;
+
+}
+
+.textflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.one h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #242B36;
+
+}
+
+.two a{
+    border: 1px solid #007456;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: #007456;
+}
+
+
+.fourbox{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;   
+    position: relative;
+    column-gap: 10px;
+    
+
+}
+
+.boxone{
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgb(0,0,0,0.1);
+    padding: 24px;
+    position: absolute;
+    width: 22%;
+
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c2cee2;
+    position: absolute;
+    align-items: center;
+}
+
+.circle i{
+    color: #007456;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.boxone h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #242B36;
+    margin-top: 70px;
+
+}
+.boxone p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #414E62;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    
+}
+
+.boxone h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #242B36;
+    margin-top: 30px;
+}
+.boxtwo{
+     height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgb(0,0,0,0.1);
+    padding: 24px;
+    position: absolute;
+    width: 22%;
+    left: 25%;
+}
+.circletwo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c2cee2;
+    position: absolute;
+    align-items: center;
+}
+.circletwo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.boxtwo h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #242B36;
+    margin-top: 70px;
+
+}
+
+.boxtwo p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #414E62;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.boxtwo h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #242B36;
+    margin-top: 30px;
+}
+
+
+.boxthree{
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgb(0,0,0,0.1);
+    padding: 24px;
+    position: absolute;
+    width: 22%;
+    left: 50%;
+}
+
+.circlethree{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c2cee2;
+    position: absolute;
+    align-items: center;
+}
+.circlethree img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.boxthree h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #242B36;
+    margin-top: 70px;
+
+}
+.boxthree p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #414E62;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.boxthree h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #242B36;
+    margin-top: 30px;
+}
+
+
+
+.boxfour{
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgb(0,0,0,0.1);
+    padding: 24px;
+    position: absolute;
+    width: 22%;
+    right: 0;
+}
+
+.circlefour{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c2cee2;
+    position: absolute;
+    align-items: center;
+}
+.circlefour img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxfour h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #242B36;
+    margin-top: 70px;
+
+}
+
+.boxfour p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #414E62;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.boxfour h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #242B36;
+    margin-top: 30px;
+}
+
+/* banner 2nd part end */
